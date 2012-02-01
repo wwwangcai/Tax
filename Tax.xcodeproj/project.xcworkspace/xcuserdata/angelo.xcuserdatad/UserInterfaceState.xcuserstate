@@ -6398,7 +6398,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>349778854.447689</real>
+		<real>349779033.83792198</real>
 		<string>{4588, 962}</string>
 		<string>{5595, 0}</string>
 		<dict>
@@ -12114,7 +12114,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>349778854.44821</real>
+		<real>349779033.83845103</real>
 		<string>{4588, 962}</string>
 		<string>{5595, 0}</string>
 		<string>-clearInput</string>
@@ -13888,7 +13888,7 @@
 		</dict>
 		<string>IDEUtilitiesArea</string>
 		<real>260</real>
-		<string>{{-36, 71}, {1280, 707}}</string>
+		<string>{{286, -20}, {1280, 707}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
