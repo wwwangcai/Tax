@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beijing</key>
+	<dict>
+		<key>yanglaogeren</key>
+		<integer>8</integer>
+		<key>yanglaogongsi</key>
+		<integer>20</integer>
+		<key>yiliaogeren</key>
+		<integer>2</integer>
+		<key>yiliaogongsi</key>
+		<integer>10</integer>
+		<key>shiyegeren</key>
+		<real>0.2</real>
+		<key>shiyegongsi</key>
+		<integer>1</integer>
+		<key>gongshanggongsi</key>
+		<real>0.3</real>
+		<key>shengyugongsi</key>
+		<real>0.8</real>
+		<key>gongjijingeren</key>
+		<integer>12</integer>
+		<key>gongjijingongsi</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>北京</string>
+		<key>ensuretop</key>
+		<integer>12603</integer>
+	</dict>
+	<key>shanghai</key>
+	<dict>
+		<key>yanglaogeren</key>
+		<integer>8</integer>
+		<key>yanglaogongsi</key>
+		<integer>22</integer>
+		<key>yiliaogeren</key>
+		<integer>2</integer>
+		<key>yiliaogongsi</key>
+		<integer>22</integer>
+		<key>shiyegeren</key>
+		<integer>1</integer>
+		<key>shiyegongsi</key>
+		<integer>2</integer>
+		<key>gongshanggongsi</key>
+		<real>0.5</real>
+		<key>shengyugongsi</key>
+		<real>0.5</real>
+		<key>gongjijingeren</key>
+		<integer>7</integer>
+		<key>gongjijingongsi</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>上海</string>
+		<key>ensuretop</key>
+		<integer>11688</integer>
+	</dict>
+</dict>
+</plist>
