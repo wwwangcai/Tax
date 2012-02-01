@@ -47,7 +47,7 @@
     self.taxRateDic = ddic;
     [ddic release];
 
-    DropDownList *listt = [[DropDownList alloc] initWithFrame:CGRectMake(120, 4, 111, 31) andCityArray:listForDropDownList];
+    DropDownList *listt = [[DropDownList alloc] initWithFrame:CGRectMake(120, 5, 111, 31) andCityArray:listForDropDownList];
     listt.delegate = self;
     [listForDropDownList release];
     listt.borderStyle = UITextBorderStyleRoundedRect;

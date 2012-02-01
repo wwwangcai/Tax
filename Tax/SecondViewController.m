@@ -50,7 +50,6 @@
     if (self=[super init]) {
         self.taxDic = tax;
         self.salaryBeforeTax = salary;
-        //NSLog(@"In init method salary is %f", salary);
     }
     return self;
 } 
