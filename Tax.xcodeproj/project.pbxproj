@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178782BE14D3D4380066CB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178782BD14D3D4380066CB23 /* UIKit.framework */; };
+		178782C014D3D4380066CB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178782BF14D3D4380066CB23 /* Foundation.framework */; };
+		178782C214D3D4380066CB23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178782C114D3D4380066CB23 /* CoreGraphics.framework */; };
+		178782C814D3D4380066CB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 178782C614D3D4380066CB23 /* InfoPlist.strings */; };
+		178782CA14D3D4380066CB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 178782C914D3D4380066CB23 /* main.m */; };
+		178782CE14D3D4380066CB23 /* TaxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 178782CD14D3D4380066CB23 /* TaxAppDelegate.m */; };
+		178782D114D3D4380066CB23 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178782CF14D3D4380066CB23 /* MainWindow.xib */; };
+		178782D414D3D4380066CB23 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178782D314D3D4380066CB23 /* FirstViewController.m */; };
+		178782D714D3D4380066CB23 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178782D614D3D4380066CB23 /* SecondViewController.m */; };
+		178782DA14D3D4390066CB23 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178782D814D3D4390066CB23 /* FirstView.xib */; };
+		178782DD14D3D4390066CB23 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178782DB14D3D4390066CB23 /* SecondView.xib */; };
+		178782E414D3F3F40066CB23 /* CityTax.plist in Resources */ = {isa = PBXBuildFile; fileRef = 178782E314D3F3F40066CB23 /* CityTax.plist */; };
+		178782EA14D41A2E0066CB23 /* TaxRate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 178782E914D41A2E0066CB23 /* TaxRate.plist */; };
+		17C35F4314D9101400C07D5C /* HouseLoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C35F4114D9101400C07D5C /* HouseLoanViewController.m */; };
+		17C35F4414D9101400C07D5C /* HouseLoanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C35F4214D9101400C07D5C /* HouseLoanViewController.xib */; };
+		17C35F4714D9138400C07D5C /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C35F4614D9138400C07D5C /* logo.jpg */; };
+		17DF60EE14D76CB1003C82EE /* DropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DF60ED14D76CB1003C82EE /* DropDownList.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178782B914D3D4380066CB23 /* Tax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178782BD14D3D4380066CB23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		178782BF14D3D4380066CB23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		178782C114D3D4380066CB23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		178782C514D3D4380066CB23 /* Tax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tax-Info.plist"; sourceTree = "<group>"; };
+		178782C714D3D4380066CB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		178782C914D3D4380066CB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		178782CB14D3D4380066CB23 /* Tax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tax-Prefix.pch"; sourceTree = "<group>"; };
+		178782CC14D3D4380066CB23 /* TaxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxAppDelegate.h; sourceTree = "<group>"; };
+		178782CD14D3D4380066CB23 /* TaxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxAppDelegate.m; sourceTree = "<group>"; };
+		178782D014D3D4380066CB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		178782D214D3D4380066CB23 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		178782D314D3D4380066CB23 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		178782D514D3D4380066CB23 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		178782D614D3D4380066CB23 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		178782D914D3D4390066CB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		178782DC14D3D4390066CB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		178782E314D3F3F40066CB23 /* CityTax.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityTax.plist; sourceTree = "<group>"; };
+		178782E914D41A2E0066CB23 /* TaxRate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TaxRate.plist; sourceTree = "<group>"; };
+		17C35F4014D9101400C07D5C /* HouseLoanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseLoanViewController.h; sourceTree = "<group>"; };
+		17C35F4114D9101400C07D5C /* HouseLoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseLoanViewController.m; sourceTree = "<group>"; };
+		17C35F4214D9101400C07D5C /* HouseLoanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseLoanViewController.xib; sourceTree = "<group>"; };
+		17C35F4614D9138400C07D5C /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../Downloads/logo.jpg; sourceTree = "<group>"; };
+		17DF60EC14D76CB1003C82EE /* DropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownList.h; sourceTree = "<group>"; };
+		17DF60ED14D76CB1003C82EE /* DropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownList.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178782B614D3D4380066CB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178782BE14D3D4380066CB23 /* UIKit.framework in Frameworks */,
+				178782C014D3D4380066CB23 /* Foundation.framework in Frameworks */,
+				178782C214D3D4380066CB23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178782AE14D3D4380066CB23 = {
+			isa = PBXGroup;
+			children = (
+				178782C314D3D4380066CB23 /* Tax */,
+				178782BC14D3D4380066CB23 /* Frameworks */,
+				178782BA14D3D4380066CB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178782BA14D3D4380066CB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178782B914D3D4380066CB23 /* Tax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178782BC14D3D4380066CB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178782BD14D3D4380066CB23 /* UIKit.framework */,
+				178782BF14D3D4380066CB23 /* Foundation.framework */,
+				178782C114D3D4380066CB23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178782C314D3D4380066CB23 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+				178782CC14D3D4380066CB23 /* TaxAppDelegate.h */,
+				178782CD14D3D4380066CB23 /* TaxAppDelegate.m */,
+				178782CF14D3D4380066CB23 /* MainWindow.xib */,
+				178782D214D3D4380066CB23 /* FirstViewController.h */,
+				178782D314D3D4380066CB23 /* FirstViewController.m */,
+				178782D814D3D4390066CB23 /* FirstView.xib */,
+				178782D514D3D4380066CB23 /* SecondViewController.h */,
+				178782D614D3D4380066CB23 /* SecondViewController.m */,
+				178782DB14D3D4390066CB23 /* SecondView.xib */,
+				17DF60EC14D76CB1003C82EE /* DropDownList.h */,
+				17DF60ED14D76CB1003C82EE /* DropDownList.m */,
+				17C35F4014D9101400C07D5C /* HouseLoanViewController.h */,
+				17C35F4114D9101400C07D5C /* HouseLoanViewController.m */,
+				17C35F4214D9101400C07D5C /* HouseLoanViewController.xib */,
+				178782C414D3D4380066CB23 /* Supporting Files */,
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		178782C414D3D4380066CB23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C35F4614D9138400C07D5C /* logo.jpg */,
+				178782C514D3D4380066CB23 /* Tax-Info.plist */,
+				178782C614D3D4380066CB23 /* InfoPlist.strings */,
+				178782C914D3D4380066CB23 /* main.m */,
+				178782CB14D3D4380066CB23 /* Tax-Prefix.pch */,
+				178782E314D3F3F40066CB23 /* CityTax.plist */,
+				178782E914D41A2E0066CB23 /* TaxRate.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178782B814D3D4380066CB23 /* Tax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178782E014D3D4390066CB23 /* Build configuration list for PBXNativeTarget "Tax" */;
+			buildPhases = (
+				178782B514D3D4380066CB23 /* Sources */,
+				178782B614D3D4380066CB23 /* Frameworks */,
+				178782B714D3D4380066CB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tax;
+			productName = Tax;
+			productReference = 178782B914D3D4380066CB23 /* Tax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178782B014D3D4380066CB23 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 178782B314D3D4380066CB23 /* Build configuration list for PBXProject "Tax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 178782AE14D3D4380066CB23;
+			productRefGroup = 178782BA14D3D4380066CB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178782B814D3D4380066CB23 /* Tax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178782B714D3D4380066CB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178782C814D3D4380066CB23 /* InfoPlist.strings in Resources */,
+				178782D114D3D4380066CB23 /* MainWindow.xib in Resources */,
+				178782DA14D3D4390066CB23 /* FirstView.xib in Resources */,
+				178782DD14D3D4390066CB23 /* SecondView.xib in Resources */,
+				178782E414D3F3F40066CB23 /* CityTax.plist in Resources */,
+				178782EA14D41A2E0066CB23 /* TaxRate.plist in Resources */,
+				17C35F4414D9101400C07D5C /* HouseLoanViewController.xib in Resources */,
+				17C35F4714D9138400C07D5C /* logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178782B514D3D4380066CB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178782CA14D3D4380066CB23 /* main.m in Sources */,
+				178782CE14D3D4380066CB23 /* TaxAppDelegate.m in Sources */,
+				178782D414D3D4380066CB23 /* FirstViewController.m in Sources */,
+				178782D714D3D4380066CB23 /* SecondViewController.m in Sources */,
+				17DF60EE14D76CB1003C82EE /* DropDownList.m in Sources */,
+				17C35F4314D9101400C07D5C /* HouseLoanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		178782C614D3D4380066CB23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178782C714D3D4380066CB23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		178782CF14D3D4380066CB23 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178782D014D3D4380066CB23 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		178782D814D3D4390066CB23 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178782D914D3D4390066CB23 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		178782DB14D3D4390066CB23 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178782DC14D3D4390066CB23 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178782DE14D3D4390066CB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		178782DF14D3D4390066CB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178782E114D3D4390066CB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tax/Tax-Prefix.pch";
+				INFOPLIST_FILE = "Tax/Tax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		178782E214D3D4390066CB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tax/Tax-Prefix.pch";
+				INFOPLIST_FILE = "Tax/Tax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178782B314D3D4380066CB23 /* Build configuration list for PBXProject "Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178782DE14D3D4390066CB23 /* Debug */,
+				178782DF14D3D4390066CB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178782E014D3D4390066CB23 /* Build configuration list for PBXNativeTarget "Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178782E114D3D4390066CB23 /* Debug */,
+				178782E214D3D4390066CB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178782B014D3D4380066CB23 /* Project object */;
+}
